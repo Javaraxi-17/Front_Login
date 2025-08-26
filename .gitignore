@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+
+# Dependencias de paquetes (npm o yarn)
+package-lock.json
+yarn.lock
+
+# Archivos de entorno
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Archivos de configuración de IDEs (Visual Studio Code, etc.)
+.vscode/
+
+# Archivos del sistema operativo
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Logs y archivos temporales
+logs/
+*.log
+*.pid
+*.gz
+
+# Build output
+build/
+dist/
+
+# Archivos de dependencias locales en proyectos de Python
+*.pyc
+*.pyo
+
+# Archivos generados por el sistema
+.idea/
+
+# Directorios específicos de compilación
+/public/
+
+# Archivos de caché
+.cache/
+
+# Otros archivos específicos
+*.tgz
+*.bak
+node_modules

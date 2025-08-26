@@ -1,0 +1,49 @@
+/* Modal styles for update and delete confirmation */
+.modal-bg {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(49,46,129,0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.modal {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  min-width: 320px;
+  box-shadow: 0 4px 24px rgba(49,46,129,0.14);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: stretch;
+}
+.modal-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #312e81;
+  margin-bottom: 0.5rem;
+}
+.modal input {
+  margin-bottom: 0.7rem;
+}
+.modal-btns {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+.modal-btn {
+  padding: 0.6rem 1.3rem;
+  border: none;
+  border-radius: 0.6rem;
+  background: #6366f1;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.modal-btn.cancel {
+  background: #c7d2fe;
+  color: #312e81;
+}
