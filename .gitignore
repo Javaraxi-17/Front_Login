@@ -36,7 +36,6 @@ dist/
 .idea/
 
 # Directorios específicos de compilación
-/public/
 
 # Archivos de caché
 .cache/
